@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>   </div>   <!--div 내부 비어있음-->
+    <script>
+        let a = document.querySelector("div")
+        a.innerHTML = "<h1>innerHTML</h1> <p>태그 내부에 태그를 삽입합니다</p>" //코드 실행하면 <div>태그 내부에 HTML코드 입력되어 있음
+                                                                             //innerHTML의 역할: 1.현재 기재된 값 가져오기
+                                                                             //                 2.새로운 값 할당-> 기존 태그 내부에 있던 텍스트 삭제
+    </script>
+    
+</body>
+</html>
